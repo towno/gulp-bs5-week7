@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/bootstrap.css">
   <link rel="stylesheet" href="./assets/style/all.css">
-
   <link
     href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
     rel="stylesheet">
@@ -18,12 +17,13 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-primary h-13_5">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="ml-9_5" src="./assets/images/logo.png" alt="LOGO"></a>
+      <a data-aos="fade-down" class="navbar-brand" href="#"><img class="ml-9_5" src="./assets/images/logo.png"
+          alt="LOGO"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse mr-9_5" id="navbarSupportedContent">
+      <div data-aos="fade-right" class="collapse navbar-collapse mr-9_5" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto fs-5">
           <li class="nav-item me-7">
             <a class="nav-link active text-white" aria-current="page" href="series.html">系列鏡框</a>
@@ -83,3 +83,10 @@
 </body>
 
 </html>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true,
+  });
+</script>
