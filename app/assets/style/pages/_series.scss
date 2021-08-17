@@ -1,0 +1,44 @@
+.series__menu > .active {
+    border-bottom: 8px solid #aa0601;
+}
+
+.series__banner img {
+    width: 50vw;
+    height: auto;
+    display: block;
+}
+.series__prod-info img {
+    width: 255px;
+    height: 164px;
+}
+
+.series__prod-info > .d-flex > li {
+    position: relative;
+    padding-left: 30px;
+    letter-spacing: -1.5px;
+}
+.series__prod-info > ul {
+    margin-left: -31px;
+    margin-right: -31px;
+}
+
+.series__left-box {
+    background-color: #5f3e2d;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    margin-bottom: 104px;
+}
+.series__right-box {
+    background-color: #b75929;
+    width: 24px;
+    height: 24px;
+}
+
+.page-item.active .page-link {
+    background-color: #000000;
+    border-color: #555555;
+}
+.page-link {
+    color: #555555;
+}
