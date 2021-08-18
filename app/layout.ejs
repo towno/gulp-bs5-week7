@@ -15,69 +15,47 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary h-13_5">
-    <div class="container-fluid">
-      <a data-aos="fade-down" class="navbar-brand" href="#"><img class="ml-9_5" src="./assets/images/logo.png"
-          alt="LOGO"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div data-aos="fade-right" class="collapse navbar-collapse mr-9_5" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto fs-5">
-          <li class="nav-item me-7">
-            <a class="nav-link active text-white" aria-current="page" href="series.html">系列鏡框</a>
-          </li>
-          <li class="nav-item me-7">
-            <a class="nav-link text-white" href="store.html">門市據點</a>
-          </li>
-          <li class="nav-item me-7">
-            <a class="nav-link text-white" href="blog.html">部落格</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white mr-0" href="qa.html">常見問題</a>
-          </li>
+  <div class="d-flex">
+    <nav class="bg-primary align-items-start">
+      <div class="mt-4 w-37">
+        <a data-aos="fade-down" class="d-flex mb-4 ml-4" href="#"><img src="./assets/images/logo-ANSWER.svg"
+            alt="LOGO"></a>
+        <ul>
+          <li class="mb-1_6 pl-4 border-5 border-start border-primary"><a class="text-secondary d-flex p-tb-1" href="#">
+              <span class="material-icons">
+                dashboard
+              </span>Dashboard</a></li>
+          <li class="mb-1_6 pl-4 border-5 border-start border-primary"><a class="text-secondary d-flex p-tb-1" href="#">
+              <span class="material-icons">
+                question_answer
+              </span>Question</a></li>
+          <li class="mb-1_6 pl-4 border-5 border-start border-primary layout__active"><a
+              class="text-secondary d-flex p-tb-1" href="#">
+              <span class="material-icons">
+                assignment
+              </span>Assignment</a></li>
+          <li class="mb-1_6 pl-4 border-5 border-start border-primary"><a class="text-secondary d-flex p-tb-1" href="#">
+              <span class="material-icons">
+                video_library
+              </span>Course</a></li>
+          <li class="mb-1_6 pl-4 border-5 border-start border-primary"><a class="text-secondary d-flex p-tb-1" href="#">
+              <span class="material-icons">
+                group
+              </span>Admin</a></li>
+          <li class="mb-1_6 pl-4 border-5 border-start border-primary"><a class="text-secondary d-flex p-tb-1" href="#">
+              <span class="material-icons">
+                settings
+              </span>Settings</a></li>
         </ul>
       </div>
-    </div>
-  </nav>
+      <div class="d-felx">
+        <img src="../app/assets/images/andychen.jpeg" alt="">
+        <h2>Andy Chen</h2><span>andy0401@mail.com</span>
+      </div>
+    </nav>
 
-  <%- contents %>
-
-  <footer class="layout__footer bg-primary text-white">
-    <div class="container">
-      <div class="d-flex justify-content-between align-items-center pt-5_5 mb-4_5">
-        <ul class="d-flex">
-          <li class="mr-6">首頁</li>
-          <li class="mr-6">系列鏡框</li>
-          <li class="mr-6">門市據點</li>
-          <li class="mr-6">部落格</li>
-          <li class="mr-6">常見問題</li>
-        </ul>
-        <ul class="d-flex">
-          <li class="mr-4"><a href="#"><img src="./assets/images/icon-fb.svg" alt="FB"></a></li>
-          <li class="mr-4"><a href="#"><img src="./assets/images/icon-ig.svg" alt="IG"></a></li>
-          <li><a href="#"><img src="./assets/images/icon-line.svg" alt="LINE"></a></li>
-        </ul>
-      </div>
-      <div class="d-flex align-items-center mb-3_75">
-        <a href="#" class="pr-2_75"><img class="h-4_5 w-4_5" src="./assets/images/icon-phone.svg" alt="電話icon"></a>
-        <h3 class="ma-0 fs-1 lh-1">0800-000-000</h3>
-      </div>
-      <div class="d-flex border-bottom pb-3 align-items-center">
-        <a href="#" class="pr-2_75"><img class="h-4_5 w-4_5" src="./assets/images/icon-mail.svg" alt="Email icon"></a>
-        <h3 class="ma-0 fs-1 lh-1">glasses@business.com</h3>
-      </div>
-      <div class="d-flex justify-content-between pt-4">
-        <span>Copyright © 2020 Glasses.All rights reserved.</span>
-        <ul class="d-flex">
-          <li class="mr-6">隱私權政策</li>
-          <li>服務條款</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-
+    <%- contents %>
+  </div>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
