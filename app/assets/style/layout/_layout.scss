@@ -189,3 +189,14 @@ $unit: 8px;
 .layout__mr-2 {
   margin-right: $unit * 2;
 }
+
+.layout__w-40 {
+  min-width: $unit * 40;
+}
+.layout__w-73 {
+  min-width: $unit * 73;
+}
+
+.layout__p-all-1_5 {
+  padding: $unit * 1.5;
+}
