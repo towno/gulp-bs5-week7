@@ -76,6 +76,7 @@ $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-100 !default;
 $light2: #f2f2f2;
+$light3: $gray-600 !default;
 $dark: $gray-900 !default;
 $dark2: #f2f2f2;
 $dark3: $gray-400 !default;
@@ -91,6 +92,7 @@ $theme-colors: (
   "danger": $danger,
   "light": $light,
   "light2": $light2,
+  "light3": $light3,
   "dark": $dark,
   "dark2": $dark2,
   "gray-600": $gray-600,
@@ -590,6 +592,8 @@ $table-variants: (
   "warning": shift-color($warning, $table-bg-scale),
   "danger": shift-color($danger, $table-bg-scale),
   "light": $light,
+  "light2": $light2,
+  "light3": $light3,
   "dark": $dark,
   "dark2": $dark2,
 ) !default;
