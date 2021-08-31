@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>部落格</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/bootstrap.css">
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="d-flex">
+    <nav class="bg-primary align-items-start layout__w-37 vh-100">
+      <div class="mt-4">
+        <a data-aos="fade-down" class="d-flex layout__mb-4 layout__ms-4" href="#"><img
+            src="./assets/images/logo-ANSWER.svg" alt="LOGO"></a>
+        <ul>
+          <li class="layout__mb-1_6 layout__pl-4 border-5 border-start border-primary"><a
+              class="text-secondary d-flex layout__p-tb-1" href="#">
+              <span class="material-icons layout__me-2">
+                dashboard
+              </span>Dashboard</a></li>
+          <li class="layout__mb-1_6 layout__pl-4 border-5 border-start border-primary"><a
+              class="text-secondary d-flex layout__p-tb-1" href="#">
+              <span class="material-icons layout__me-2">
+                question_answer
+              </span>Question</a></li>
+          <li class="layout__mb-1_6 layout__pl-4 border-5 border-start border-primary layout__active"><a
+              class="text-secondary d-flex layout__p-tb-1" href="./assignment.html">
+              <span class="material-icons layout__me-2">
+                assignment
+              </span>Assignment</a></li>
+          <li class="layout__mb-1_6 layout__pl-4 border-5 border-start border-primary"><a
+              class="text-secondary d-flex layout__p-tb-1" href="#">
+              <span class="material-icons layout__me-2">
+                video_library
+              </span>Course</a></li>
+          <li class="layout__mb-1_6 layout__pl-4 border-5 border-start border-primary"><a
+              class="text-secondary d-flex layout__p-tb-1" href="#">
+              <span class="material-icons layout__me-2">
+                group
+              </span>Admin</a></li>
+          <li class="layout__mb-1_6 layout__pl-4 border-5 border-start border-primary"><a
+              class="text-secondary d-flex layout__p-tb-1" href="#">
+              <span class="material-icons layout__me-2">
+                settings
+              </span>Settings</a></li>
+        </ul>
+      </div>
+      <div class="d-flex position-absolute bottom-0 layout__ms-4">
+        <a href="#" class="ms-2 layout__ms-4 layout__me-2"><img class="layout__w-5 layout__h-5 rounded-circle"
+            src="./assets/images/andychen.jpeg" alt="Andy Chen照片"></a>
+        <h2 class="layout__fs-2">Andy Chen<span
+            class="layout__fs-1_75 d-block fw-normal text-gray-600">andy0401@mail.com</span></h2>
+      </div>
+    </nav>
+
+    
+<div class="container">
+  <h1 class="index__h1">部落格</h1>
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
+  <div class="alert alert-secondary" role="alert">
+    A simple secondary alert—check it out!
+  </div>
+  <div class="alert alert-success" role="alert">
+    A simple success alert—check it out!
+  </div>
+  <div class="alert alert-danger" role="alert">
+    A simple danger alert—check it out!
+  </div>
+  <div class="alert alert-warning" role="alert">
+    A simple warning alert—check it out!
+  </div>
+  <div class="alert alert-info" role="alert">
+    A simple info alert—check it out!
+  </div>
+  <div class="alert alert-light" role="alert">
+    A simple light alert—check it out!
+  </div>
+  <div class="alert alert-dark" role="alert">
+    A simple dark alert—check it out!
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true,
+  });
+</script>
