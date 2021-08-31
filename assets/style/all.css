@@ -154,10 +154,6 @@ a {
   padding-top: 44px;
 }
 
-.layout__me-4 {
-  margin-right: 32px;
-}
-
 .layout__ms-4 {
   margin-left: 32px;
 }
@@ -298,6 +294,18 @@ a {
   margin-top: 32px;
 }
 
+.layout__me-4 {
+  margin-right: 32px;
+}
+
+.layout__pe-4 {
+  padding-right: 32px;
+}
+
+.layout__pe-2_5 {
+  padding-right: 20px !important;
+}
+
 .layout__w-37 {
   width: 296px;
 }
@@ -336,6 +344,10 @@ a {
 
 .layout__mr3_2 {
   margin-right: 26px;
+}
+
+.layout__me2 {
+  margin-right: 16px;
 }
 
 .layout__container {
@@ -378,6 +390,14 @@ a {
   padding: 12px;
 }
 
+.layout__p-all-4 {
+  padding: 32px;
+}
+
+.layout__me-4 {
+  margin-right: 32px;
+}
+
 .layout__d-contents {
   display: contents;
 }
@@ -397,6 +417,10 @@ a {
 
 .layout__ms-2_6 {
   margin-left: 21px;
+}
+
+.layout__ps-2 {
+  padding-left: 16px;
 }
 
 .assignment__h1 {
